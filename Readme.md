@@ -19,10 +19,6 @@
       &nbsp;<strong>Scarica per macOS</strong>
     </a>
   </p>
-
-  <sub>
-    <a href="https://github.com/dolce95/gestione-pedane-releases/releases">Versioni precedenti e note di rilascio</a>
-  </sub>
 </div>
 
 ---
