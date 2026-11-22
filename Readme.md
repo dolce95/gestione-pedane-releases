@@ -1,6 +1,4 @@
 <div align="center">
-  <br />
-  <img src="icon.png" alt="Gestore Pedane" width="80" height="80" />
   <h1>Gestore Pedane</h1>
   <p>
     Gestione movimentazioni, buoni pedane e contabilità vettori per desktop.
