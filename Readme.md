@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
   # Gestore Pedane
 
   **La gestione digitale di movimentazioni, buoni pedane e contabilità vettori.**
@@ -10,12 +10,12 @@
 
   <p>
     <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe">
-      <img src="https://api.iconify.design/logos/microsoft-windows-icon.svg" width="15" height="15" valign="middle" alt="" />
+      <img src="https://api.iconify.design/logos/microsoft-windows-icon.svg" width="15" height="15" alt="Windows" />
       &nbsp;<strong>Scarica per Windows</strong>
     </a>
     &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip">
-      <img src="https://api.iconify.design/ri/apple-fill.svg?color=%2364748B" width="16" height="16" valign="middle" alt="" />
+      <img src="https://api.iconify.design/ri/apple-fill.svg?color=%2364748B" width="16" height="16" alt="Apple" />
       &nbsp;<strong>Scarica per macOS</strong>
     </a>
   </p>
@@ -41,8 +41,8 @@
 
 | Sistema | Requisiti | Procedura |
 | :--- | :--- | :--- |
-| ![Windows](https://api.iconify.design/logos/microsoft-windows-icon.svg?width=13) **Windows** | Windows 10 o 11, 64-bit | Apri l'installer `.exe` e completa la procedura guidata. |
-| ![macOS](https://api.iconify.design/ri/apple-fill.svg?color=%2364748B&width=14) **macOS** | Apple Silicon (M1–M4) | Estrai il file `.zip`, quindi sposta `Gestore Pedane.app` in **Applicazioni**. |
+| <img src="https://api.iconify.design/logos/microsoft-windows-icon.svg" width="14" height="14" alt="Windows" /> **Windows** | Windows 10 o 11, 64-bit | Apri l'installer `.exe` e completa la procedura guidata. |
+| <img src="https://api.iconify.design/ri/apple-fill.svg?color=%2364748B" width="14" height="14" alt="macOS" /> **macOS** | Apple Silicon (M1–M4) | Estrai il file `.zip`, quindi sposta `Gestore Pedane.app` in **Applicazioni**. |
 
 <details>
 <summary><strong>Avvisi di sicurezza al primo avvio</strong></summary>
@@ -72,49 +72,3 @@ L'applicazione usa un database locale e non richiede l'uso di servizi cloud per 
 - Gli esportati e i backup vengono salvati nei percorsi configurati dall'utente.
 - Le credenziali email, quando configurate, vengono utilizzate esclusivamente per l'invio dei report.
 - Conserva una copia periodica del database su un supporto o in una posizione diversa dal computer principale.
-
-## Sviluppo locale
-
-### Requisiti
-
-- Node.js
-- npm
-
-### Avvio in sviluppo
-
-Apri due terminali nella cartella del progetto:
-
-```bash
-# Terminale 1
-npm install
-npm run dev
-
-# Terminale 2
-npm run electron
-```
-
-### Verifica e build
-
-```bash
-npm test
-npm run lint
-npm run build
-```
-
-### Pacchetti desktop
-
-```bash
-npm run dist:win
-npm run dist:mac
-```
-
-Il progetto utilizza React, Vite, Electron e SQLite.
-
-## Stack tecnico
-
-- **Interfaccia:** React 19
-- **Build frontend:** Vite 7
-- **Applicazione desktop:** Electron 44
-- **Database:** SQLite
-- **Export:** PDF/Excel
-- **Distribuzione:** electron-builder e GitHub Releases
