@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="./assets/icon.png" alt="Gestore Pedane" width="96" />
-
   # Gestore Pedane
 
   **La gestione digitale di movimentazioni, buoni pedane e contabilità vettori.**
