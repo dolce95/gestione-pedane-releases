@@ -1,12 +1,23 @@
 <div align="center">
+  <br />
+  <img src="icon.png" alt="Gestore Pedane" width="80" height="80" />
   <h1>Gestore Pedane</h1>
   <p>
     Gestione movimentazioni, buoni pedane e contabilità vettori per desktop.
   </p>
   <p>
-    <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest"><strong>Scarica l'ultima versione →</strong></a>
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href="https://github.com/dolce95/gestione-pedane-releases/releases">Note di rilascio</a>
+    <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe">
+      <img src="https://api.iconify.design/logos/microsoft-windows-icon.svg" width="15" height="15" valign="middle" alt="Windows" />
+      &nbsp;<strong>Scarica per Windows</strong>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip">
+      <img src="https://api.iconify.design/ri/apple-fill.svg?color=%2364748B" width="16" height="16" valign="middle" alt="macOS" />
+      &nbsp;<strong>Scarica per macOS</strong>
+    </a>
+  </p>
+  <p>
+    <sub><a href="https://github.com/dolce95/gestione-pedane-releases/releases">Note di rilascio e versioni precedenti</a></sub>
   </p>
   <br />
 </div>
@@ -15,19 +26,17 @@
 
 ### Installazione
 
-Scegli il pacchetto corrispondente al tuo sistema operativo dalla sezione **Assets** dell'**[ultima release](https://github.com/dolce95/gestione-pedane-releases/releases/latest)**:
-
-| Sistema | File | Procedura |
+| Sistema | Requisiti | Procedura |
 | :--- | :--- | :--- |
-| **Windows** `x64` | `Gestore Pedane Setup *.exe` | Esegui l'installer e completa la procedura guidata. |
-| **macOS** `Apple Silicon / Intel` | `Gestore Pedane-*-mac.zip` | Estrai il file e sposta l'app in **Applicazioni**. |
+| <img src="https://api.iconify.design/logos/microsoft-windows-icon.svg" width="13" height="13" valign="middle" /> **Windows** | Windows 10 / 11 (64-bit) | Avvia l'installer `.exe` scaricato e segui la procedura guidata. |
+| <img src="https://api.iconify.design/ri/apple-fill.svg?color=%2364748B" width="14" height="14" valign="middle" /> **macOS** | Apple Silicon (M1/M2/M3/M4) | Estrai l'archivio `.zip` e sposta `Gestore Pedane.app` in **Applicazioni**. |
 
 <details>
-<summary>Requisiti e primo avvio</summary>
+<summary>Risoluzione avvisi di sicurezza al primo avvio</summary>
 <br />
 
-- **Windows 10 / 11 (64-bit):** Se compare l'avviso *Windows SmartScreen*, clicca su **Ulteriori informazioni** → **Esegui comunque**.
-- **macOS:** Al primo avvio, se richiesto dal sistema, fai clic destro sull'app → **Apri** per autorizzare l'esecuzione.
+- **Windows SmartScreen:** Se compare l'avviso di protezione, clicca su **Ulteriori informazioni** → **Esegui comunque**.
+- **macOS Gatekeeper:** Al primo avvio, se richiesto dal sistema, fai clic destro sull'app → **Apri** per autorizzare l'esecuzione.
 - **Aggiornamenti:** Una volta installato, il software rileva automaticamente le nuove versioni all'avvio o manualmente da **Impostazioni → Aggiornamenti**.
 
 </details>
