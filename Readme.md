@@ -1,24 +1,26 @@
- <div align="center">
-  # Gestore Pedane
+<div align="center">
 
-  **La gestione digitale di movimentazioni, buoni pedane e contabilità vettori.**
+# Gestore Pedane
 
-  <p>
-    Applicazione desktop progettata per semplificare il lavoro quotidiano:
-    ordini, saldi cliente, fornitori, reportistica e dati sempre a portata di click.
-  </p>
+**La gestione digitale di movimentazioni, buoni pedane e contabilità vettori.**
 
-  <p>
-    <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe">
-      <img src="https://api.iconify.design/logos/microsoft-windows-icon.svg" width="15" height="15" alt="Windows" />
-      &nbsp;<strong>Scarica per Windows</strong>
-    </a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip">
-      <img src="https://api.iconify.design/ri/apple-fill.svg?color=%2364748B" width="16" height="16" alt="Apple" />
-      &nbsp;<strong>Scarica per macOS</strong>
-    </a>
-  </p>
+<p>
+  Applicazione desktop progettata per semplificare il lavoro quotidiano:
+  ordini, saldi cliente, fornitori, reportistica e dati sempre a portata di click.
+</p>
+
+<p>
+  <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe" style="text-decoration:none; border:0;">
+    <img src="https://cdn.simpleicons.org/windows/0078D4" width="17" height="17" alt="" style="display:inline-block; vertical-align:middle; border:0; text-decoration:none;" />
+    <span style="text-decoration:none; border:0;">&nbsp;<strong>Scarica per Windows</strong></span>
+  </a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip" style="text-decoration:none; border:0;">
+    <img src="https://cdn.simpleicons.org/apple/64748B" width="17" height="17" alt="" style="display:inline-block; vertical-align:middle; border:0; text-decoration:none;" />
+    <span style="text-decoration:none; border:0;">&nbsp;<strong>Scarica per macOS</strong></span>
+  </a>
+</p>
+
 </div>
 
 ---
@@ -37,8 +39,8 @@
 
 | Sistema | Requisiti | Procedura |
 | :--- | :--- | :--- |
-| <img src="https://api.iconify.design/logos/microsoft-windows-icon.svg" width="14" height="14" alt="Windows" /> **Windows** | Windows 10 o 11, 64-bit | Apri l'installer `.exe` e completa la procedura guidata. |
-| <img src="https://api.iconify.design/ri/apple-fill.svg?color=%2364748B" width="14" height="14" alt="macOS" /> **macOS** | Apple Silicon (M1–M4) | Estrai il file `.zip`, quindi sposta `Gestore Pedane.app` in **Applicazioni**. |
+| <img src="https://cdn.simpleicons.org/windows/0078D4" width="16" height="16" alt="Windows" /> **Windows** | Windows 10 o 11, 64-bit | Apri l'installer `.exe` e completa la procedura guidata. |
+| <img src="https://cdn.simpleicons.org/apple/64748B" width="16" height="16" alt="macOS" /> **macOS** | Apple Silicon (M1–M4) | Estrai il file `.zip`, quindi sposta `Gestore Pedane.app` in **Applicazioni**. |
 
 <details>
 <summary><strong>Avvisi di sicurezza al primo avvio</strong></summary>
