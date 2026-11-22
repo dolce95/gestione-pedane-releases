@@ -1,50 +1,122 @@
 <div align="center">
-  <br />
-  <h1>Gestore Pedane</h1>
+  <img src="./assets/icon.png" alt="Gestore Pedane" width="96" />
+
+  # Gestore Pedane
+
+  **La gestione digitale di movimentazioni, buoni pedane e contabilità vettori.**
+
   <p>
-    Gestione movimentazioni, buoni pedane e contabilità vettori per desktop.
+    Applicazione desktop progettata per semplificare il lavoro quotidiano:
+    ordini, saldi cliente, fornitori, reportistica e dati sempre a portata di click.
   </p>
+
   <p>
     <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe">
-      <img src="https://api.iconify.design/logos/microsoft-windows-icon.svg" width="15" height="15" valign="middle" alt="Windows" />
+      <img src="https://api.iconify.design/logos/microsoft-windows-icon.svg" width="15" height="15" valign="middle" alt="" />
       &nbsp;<strong>Scarica per Windows</strong>
     </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip">
-      <img src="https://api.iconify.design/ri/apple-fill.svg?color=%2364748B" width="16" height="16" valign="middle" alt="macOS" />
+      <img src="https://api.iconify.design/ri/apple-fill.svg?color=%2364748B" width="16" height="16" valign="middle" alt="" />
       &nbsp;<strong>Scarica per macOS</strong>
     </a>
   </p>
-  <p>
-    <sub><a href="https://github.com/dolce95/gestione-pedane-releases/releases">Note di rilascio e versioni precedenti</a></sub>
-  </p>
-  <br />
+
+  <sub>
+    <a href="https://github.com/dolce95/gestione-pedane-releases/releases">Versioni precedenti e note di rilascio</a>
+  </sub>
 </div>
 
 ---
 
-### Installazione
+## Funzionalità
+
+- **Movimentazioni e saldi** — Registrazione degli ordini annuali e calcolo automatico dei saldi per cliente.
+- **Buoni pedane** — Gestione dei buoni e riepiloghi dedicati per fornitore.
+- **Anagrafica clienti e fornitori** — Informazioni operative organizzate in un'unica area di lavoro.
+- **Report e solleciti** — Esportazione in PDF ed Excel con modelli personalizzabili e invio diretto tramite email.
+- **I tuoi dati restano locali** — Database SQLite isolato nell'area utente del sistema.
+- **Backup e ripristino** — Creazione di backup del database e ripristino dei dati quando necessario.
+- **Aggiornamenti integrati** — Verifica e installazione delle nuove versioni dall'applicazione.
+
+## Installazione
 
 | Sistema | Requisiti | Procedura |
 | :--- | :--- | :--- |
-| <img src="https://api.iconify.design/logos/microsoft-windows-icon.svg" width="13" height="13" valign="middle" /> **Windows** | Windows 10 / 11 (64-bit) | Avvia l'installer `.exe` scaricato e segui la procedura guidata. |
-| <img src="https://api.iconify.design/ri/apple-fill.svg?color=%2364748B" width="14" height="14" valign="middle" /> **macOS** | Apple Silicon (M1/M2/M3/M4) | Estrai l'archivio `.zip` e sposta `Gestore Pedane.app` in **Applicazioni**. |
+| ![Windows](https://api.iconify.design/logos/microsoft-windows-icon.svg?width=13) **Windows** | Windows 10 o 11, 64-bit | Apri l'installer `.exe` e completa la procedura guidata. |
+| ![macOS](https://api.iconify.design/ri/apple-fill.svg?color=%2364748B&width=14) **macOS** | Apple Silicon (M1–M4) | Estrai il file `.zip`, quindi sposta `Gestore Pedane.app` in **Applicazioni**. |
 
 <details>
-<summary>Risoluzione avvisi di sicurezza al primo avvio</summary>
-<br />
+<summary><strong>Avvisi di sicurezza al primo avvio</strong></summary>
 
-- **Windows SmartScreen:** Se compare l'avviso di protezione, clicca su **Ulteriori informazioni** → **Esegui comunque**.
-- **macOS Gatekeeper:** Al primo avvio, se richiesto dal sistema, fai clic destro sull'app → **Apri** per autorizzare l'esecuzione.
-- **Aggiornamenti:** Una volta installato, il software rileva automaticamente le nuove versioni all'avvio o manualmente da **Impostazioni → Aggiornamenti**.
+#### Windows — Microsoft Defender SmartScreen
+
+Se il sistema mostra un avviso, seleziona **Ulteriori informazioni** e poi **Esegui comunque**.
+
+#### macOS — Gatekeeper
+
+Se il sistema impedisce l'apertura dell'app, fai clic destro su `Gestore Pedane.app`, scegli **Apri** e conferma l'autorizzazione.
+
+> Gli avvisi possono comparire quando un'applicazione desktop non è stata ancora riconosciuta dal sistema operativo.
 
 </details>
 
----
+## Aggiornamenti
 
-### Funzionalità
+Gestore Pedane controlla automaticamente la disponibilità di nuove versioni all'avvio.
 
-- **Movimentazione e Saldi** — Gestione annuale degli ordini con calcolo automatico dei saldi per cliente.
-- **Vettori e Buoni** — Controllo dei buoni pedane e riepiloghi dedicati per singolo fornitore.
-- **Reportistica e Solleciti** — Esportazione in PDF ed Excel con template personalizzati e invio diretto via email.
-- **Dati Locali e Backup** — Database locale isolato per utente con backup automatici schedulati.
+Puoi verificare gli aggiornamenti manualmente da **Impostazioni → Aggiornamenti**.
+
+## Privacy e dati
+
+L'applicazione usa un database locale e non richiede l'uso di servizi cloud per la gestione ordinaria dei dati.
+
+- Gli esportati e i backup vengono salvati nei percorsi configurati dall'utente.
+- Le credenziali email, quando configurate, vengono utilizzate esclusivamente per l'invio dei report.
+- Conserva una copia periodica del database su un supporto o in una posizione diversa dal computer principale.
+
+## Sviluppo locale
+
+### Requisiti
+
+- Node.js
+- npm
+
+### Avvio in sviluppo
+
+Apri due terminali nella cartella del progetto:
+
+```bash
+# Terminale 1
+npm install
+npm run dev
+
+# Terminale 2
+npm run electron
+```
+
+### Verifica e build
+
+```bash
+npm test
+npm run lint
+npm run build
+```
+
+### Pacchetti desktop
+
+```bash
+npm run dist:win
+npm run dist:mac
+```
+
+Il progetto utilizza React, Vite, Electron e SQLite.
+
+## Stack tecnico
+
+- **Interfaccia:** React 19
+- **Build frontend:** Vite 7
+- **Applicazione desktop:** Electron 44
+- **Database:** SQLite
+- **Export:** PDF/Excel
+- **Distribuzione:** electron-builder e GitHub Releases
