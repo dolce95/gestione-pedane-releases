@@ -2,56 +2,75 @@
 
 # Gestore Pedane
 
-**La gestione digitale di movimentazioni, buoni pedane e contabilità vettori.**
+**Gestione digitale di movimentazioni, buoni pedane e contabilità vettori.**
 
-Applicazione desktop progettata per semplificare il lavoro quotidiano:
-ordini, saldi cliente, fornitori, reportistica e dati sempre a portata di click.
+Applicazione desktop locale per gestire ordini annuali, saldi clienti e fornitori, buoni, report e solleciti senza dipendere dal cloud.
 
 <br />
 
-<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe">
-  <img src="https://img.shields.io/badge/Scarica_per-Windows_x64-0078D4?style=for-the-badge" alt="Scarica per Windows" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip">
-  <img src="https://img.shields.io/badge/Scarica_per-macOS_(Apple_Silicon)-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Scarica per macOS" />
-</a>
+<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe"><strong>Scarica per Windows (x64)</strong></a>
+&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip"><strong>Scarica per macOS (Apple Silicon)</strong></a>
+
+<br />
+<sub>Windows 10/11 (64-bit) &bull; macOS Apple Silicon (M1–M4) &bull; Database locale SQLite</sub>
 
 </div>
 
 ---
 
-## Funzionalità principali
+## Indice
 
-- **Movimentazioni e saldi** — Registrazione degli ordini annuali e calcolo automatico dei saldi per cliente.
-- **Buoni pedane** — Gestione dei buoni e riepiloghi dedicati per fornitore.
-- **Anagrafica clienti e fornitori** — Informazioni operative organizzate in un'unica area di lavoro.
-- **Report e solleciti** — Esportazione in PDF ed Excel con modelli personalizzabili e invio diretto tramite email.
-- **Dati sempre locali** — Database SQLite isolato nell'area utente del sistema, senza dipendenza dal cloud.
-- **Backup e ripristino** — Creazione di copie di sicurezza del database e ripristino rapido quando necessario.
-- **Aggiornamenti integrati** — Verifica e installazione delle nuove versioni direttamente dall'applicazione.
+- [Funzionalità](#funzionalità)
+- [Installazione](#installazione)
+- [Primo avvio e sicurezza](#primo-avvio-e-sicurezza)
+- [Aggiornamenti](#aggiornamenti)
+- [Privacy e gestione dei dati](#privacy-e-gestione-dei-dati)
+
+---
+
+## Funzionalità
+
+### Operatività e contabilità
+- **Movimentazioni e saldi** — Registrazione degli ordini annuali con calcolo automatico dei saldi per cliente.
+- **Buoni pedane** — Gestione dei buoni e riepiloghi dedicati per fornitore e vettore.
+- **Anagrafica clienti e fornitori** — Dati operativi e contatti centralizzati in un'unica area di lavoro.
+
+### Reportistica e comunicazione
+- **Report e solleciti** — Esportazione in **PDF** ed **Excel** con modelli personalizzabili e invio diretto tramite email.
+
+### Affidabilità e controllo locale
+- **Database locale (SQLite)** — I dati risiedono nell'area utente del computer, senza invio a server cloud esterni.
+- **Backup e ripristino** — Creazione rapida di copie di sicurezza e ripristino controllato in caso di necessità.
+- **Aggiornamenti integrati** — Controllo e installazione delle nuove versioni direttamente dall'app.
 
 ---
 
 ## Installazione
 
-| Piattaforma | Requisiti | Procedura |
+| Sistema operativo | Requisiti | Passaggi di installazione |
 | :--- | :--- | :--- |
-| ![Windows](https://img.shields.io/badge/OS-Windows-0078D4?style=flat-square) | Windows 10 o 11 (64-bit) | Avvia l'installer `.exe` e completa la procedura guidata. |
-| ![macOS](https://img.shields.io/badge/-macOS-555555?style=flat-square&logo=apple&logoColor=white) | Apple Silicon (M1–M4) | Estrai il file `.zip` e sposta **Gestore Pedane.app** in **Applicazioni**. |
+| **Windows** | Windows 10 o 11 (64-bit) | 1. Scarica `Gestore-Pedane-Setup-win-x64.exe`<br>2. Avvia l'installer e completa la procedura guidata |
+| **macOS** | Apple Silicon (M1–M4) | 1. Scarica `Gestore-Pedane-mac-arm64.zip` ed estrai l'archivio<br>2. Sposta **Gestore Pedane.app** nella cartella **Applicazioni** |
+
+---
+
+## Primo avvio e sicurezza
 
 <details>
-<summary><strong>Avvisi di sicurezza al primo avvio</strong></summary>
+<summary><strong>Come sbloccare l'applicazione se il sistema mostra un avviso</strong></summary>
 
 <br />
 
+Gli avvisi di sicurezza possono comparire al primo lancio quando un'applicazione desktop non è ancora stata riconosciuta dalla reputazione del sistema operativo.
+
 #### Windows — Microsoft Defender SmartScreen
-Se compare un avviso di protezione, seleziona **Ulteriori informazioni** e poi **Esegui comunque**.
+1. Clicca su **Ulteriori informazioni**.
+2. Seleziona **Esegui comunque**.
 
 #### macOS — Gatekeeper
-Se macOS blocca l'apertura, fai **clic destro** su `Gestore Pedane.app`, scegli **Apri** e conferma l'avvio.
-
-> Gli avvisi possono comparire quando un'applicazione desktop non è ancora riconosciuta dal sistema operativo.
+1. Fai **clic destro** (o `Control + clic`) su **Gestore Pedane.app**.
+2. Seleziona **Apri** dal menu contestuale e conferma l'apertura.
 
 </details>
 
@@ -59,15 +78,15 @@ Se macOS blocca l'apertura, fai **clic destro** su `Gestore Pedane.app`, scegli 
 
 ## Aggiornamenti
 
-Gestore Pedane controlla automaticamente la disponibilità di nuove versioni all'avvio.  
-Puoi eseguire un controllo manuale in qualsiasi momento da **Impostazioni → Aggiornamenti**.
+- **Controllo automatico:** l'applicazione verifica la disponibilità di nuove versioni all'avvio.
+- **Controllo manuale:** puoi verificare o avviare l'aggiornamento in qualsiasi momento da **Impostazioni → Aggiornamenti**.
 
 ---
 
 ## Privacy e gestione dei dati
 
-L'applicazione utilizza un database locale e non richiede servizi cloud per l'operatività quotidiana:
+Gestore Pedane funziona in locale e non richiede servizi cloud per la gestione ordinaria dei dati:
 
-- **Esportazioni e backup** vengono salvati nei percorsi configurati dall'utente.
-- **Credenziali email**, se impostate, vengono usate esclusivamente per l'invio di report e solleciti.
-- **Copie di sicurezza** — Si consiglia di conservare periodicamente una copia del database su un disco esterno o in una posizione separata dal computer principale.
+- **Archiviazione locale:** database SQLite, esportazioni e backup restano nei percorsi configurati sul tuo computer.
+- **Email e credenziali:** se configurate, vengono usate esclusivamente per l'invio di report e solleciti.
+- **Continuità operativa:** conserva periodicamente una copia di backup su un disco esterno o in una posizione separata dal computer principale.
