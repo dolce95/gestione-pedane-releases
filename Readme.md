@@ -9,11 +9,11 @@ Applicazione desktop locale per gestire ordini annuali, saldi clienti e fornitor
 <br />
 
 <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe">
-  <img src="https://img.shields.io/badge/DOWNLOAD-Windows_10_/_11_(x64)-0F4C81?style=for-the-badge&labelColor=092C4C" alt="Scarica per Windows (x64)" />
+  <img src="https://img.shields.io/badge/SCARICA-Windows_10_e_11_(x64)-0F4C81?style=for-the-badge&labelColor=092C4C" alt="Scarica per Windows (x64)" />
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip">
-  <img src="https://img.shields.io/badge/DOWNLOAD-macOS_Apple_Silicon-27272A?style=for-the-badge&labelColor=18181B" alt="Scarica per macOS (Apple Silicon)" />
+  <img src="https://img.shields.io/badge/SCARICA-macOS_Apple_Silicon-27272A?style=for-the-badge&labelColor=18181B" alt="Scarica per macOS (Apple Silicon)" />
 </a>
 
 <br />
