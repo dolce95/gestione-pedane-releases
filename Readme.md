@@ -8,9 +8,11 @@ Applicazione desktop locale per gestire ordini annuali, saldi clienti e fornitor
 
 <br />
 
-**[Scarica per Windows (x64)](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe)** &nbsp;&bull;&nbsp; **[Scarica per macOS (Apple Silicon)](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip)**
+**[Scarica per Windows (x64)](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe)** &nbsp;&bull;&nbsp; **[Scarica per macOS (Apple Silicon)](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.dmg)**
 
 <br />
+
+<sub>Windows 10/11 (64-bit) &bull; macOS Apple Silicon (M1–M4) &bull; Database locale SQLite</sub>
 
 </div>
 
@@ -48,7 +50,7 @@ Applicazione desktop locale per gestire ordini annuali, saldi clienti e fornitor
 | Sistema operativo | Requisiti | Passaggi di installazione |
 | :--- | :--- | :--- |
 | **Windows** | Windows 10 o 11 (64-bit) | 1. Scarica [`Gestore-Pedane-Setup-win-x64.exe`](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe)<br>2. Avvia l'installer e completa la procedura guidata |
-| **macOS** | Apple Silicon (M1–M4) | 1. Scarica [`Gestore-Pedane-mac-arm64.zip`](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip) ed estrai l'archivio<br>2. Sposta **Gestore Pedane.app** nella cartella **Applicazioni** |
+| **macOS** | Apple Silicon (M1–M4) | 1. Scarica [`Gestore-Pedane-mac-arm64.dmg`](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.dmg) e apri l'immagine disco<br>2. Trascina **Gestore Pedane.app** nella cartella **Applicazioni** |
 
 ---
 
