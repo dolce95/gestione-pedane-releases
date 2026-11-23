@@ -8,12 +8,18 @@ Applicazione desktop locale per gestire ordini annuali, saldi clienti e fornitor
 
 <br />
 
-<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe"><strong>Scarica per Windows (x64)</strong></a>
-&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip"><strong>Scarica per macOS (Apple Silicon)</strong></a>
+<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe">
+  <img src="https://img.shields.io/badge/DOWNLOAD-Windows_10_/_11_(x64)-0F4C81?style=for-the-badge&labelColor=092C4C" alt="Scarica per Windows (x64)" />
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip">
+  <img src="https://img.shields.io/badge/DOWNLOAD-macOS_Apple_Silicon-27272A?style=for-the-badge&labelColor=18181B" alt="Scarica per macOS (Apple Silicon)" />
+</a>
 
 <br />
-<sub>Windows 10/11 (64-bit) &bull; macOS Apple Silicon (M1–M4) &bull; Database locale SQLite</sub>
+<br />
+
+<sub>Installer ufficiale &bull; Nessun account cloud richiesto &bull; Database locale SQLite</sub>
 
 </div>
 
@@ -48,10 +54,10 @@ Applicazione desktop locale per gestire ordini annuali, saldi clienti e fornitor
 
 ## Installazione
 
-| Sistema operativo | Requisiti | Passaggi di installazione |
+| Piattaforma | Requisiti | Passaggi di installazione |
 | :--- | :--- | :--- |
-| **Windows** | Windows 10 o 11 (64-bit) | 1. Scarica `Gestore-Pedane-Setup-win-x64.exe`<br>2. Avvia l'installer e completa la procedura guidata |
-| **macOS** | Apple Silicon (M1–M4) | 1. Scarica `Gestore-Pedane-mac-arm64.zip` ed estrai l'archivio<br>2. Sposta **Gestore Pedane.app** nella cartella **Applicazioni** |
+| **Windows** | Windows 10 o 11 (64-bit) | 1. Scarica [`Gestore-Pedane-Setup-win-x64.exe`](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe)<br>2. Avvia l'installer e completa la procedura guidata |
+| **macOS** | Apple Silicon (M1–M4) | 1. Scarica [`Gestore-Pedane-mac-arm64.zip`](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip) ed estrai l'archivio<br>2. Sposta **Gestore Pedane.app** nella cartella **Applicazioni** |
 
 ---
 
