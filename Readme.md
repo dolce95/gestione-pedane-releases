@@ -4,69 +4,70 @@
 
 **La gestione digitale di movimentazioni, buoni pedane e contabilità vettori.**
 
-<p>
-  Applicazione desktop progettata per semplificare il lavoro quotidiano:
-  ordini, saldi cliente, fornitori, reportistica e dati sempre a portata di click.
-</p>
+Applicazione desktop progettata per semplificare il lavoro quotidiano:
+ordini, saldi cliente, fornitori, reportistica e dati sempre a portata di click.
 
-<p>
-  <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe" style="text-decoration:none; border:0;">
-    <img src="https://cdn.simpleicons.org/windows/0078D4" width="17" height="17" alt="" style="display:inline-block; vertical-align:middle; border:0; text-decoration:none;" />
-    <span style="text-decoration:none; border:0;">&nbsp;<strong>Scarica per Windows</strong></span>
-  </a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip" style="text-decoration:none; border:0;">
-    <img src="https://cdn.simpleicons.org/apple/64748B" width="17" height="17" alt="" style="display:inline-block; vertical-align:middle; border:0; text-decoration:none;" />
-    <span style="text-decoration:none; border:0;">&nbsp;<strong>Scarica per macOS</strong></span>
-  </a>
-</p>
+<br />
+
+<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe">
+  <img src="https://img.shields.io/badge/Scarica_per-Windows_x64-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Scarica per Windows" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip">
+  <img src="https://img.shields.io/badge/Scarica_per-macOS_(Apple_Silicon)-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Scarica per macOS" />
+</a>
 
 </div>
 
 ---
 
-## Funzionalità
+## Funzionalità principali
 
 - **Movimentazioni e saldi** — Registrazione degli ordini annuali e calcolo automatico dei saldi per cliente.
 - **Buoni pedane** — Gestione dei buoni e riepiloghi dedicati per fornitore.
 - **Anagrafica clienti e fornitori** — Informazioni operative organizzate in un'unica area di lavoro.
 - **Report e solleciti** — Esportazione in PDF ed Excel con modelli personalizzabili e invio diretto tramite email.
-- **I tuoi dati restano locali** — Database SQLite isolato nell'area utente del sistema.
-- **Backup e ripristino** — Creazione di backup del database e ripristino dei dati quando necessario.
-- **Aggiornamenti integrati** — Verifica e installazione delle nuove versioni dall'applicazione.
+- **Dati sempre locali** — Database SQLite isolato nell'area utente del sistema, senza dipendenza dal cloud.
+- **Backup e ripristino** — Creazione di copie di sicurezza del database e ripristino rapido quando necessario.
+- **Aggiornamenti integrati** — Verifica e installazione delle nuove versioni direttamente dall'applicazione.
+
+---
 
 ## Installazione
 
-| Sistema | Requisiti | Procedura |
+| Piattaforma | Requisiti | Procedura |
 | :--- | :--- | :--- |
-| <img src="https://cdn.simpleicons.org/windows/0078D4" width="16" height="16" alt="Windows" /> **Windows** | Windows 10 o 11, 64-bit | Apri l'installer `.exe` e completa la procedura guidata. |
-| <img src="https://cdn.simpleicons.org/apple/64748B" width="16" height="16" alt="macOS" /> **macOS** | Apple Silicon (M1–M4) | Estrai il file `.zip`, quindi sposta `Gestore Pedane.app` in **Applicazioni**. |
+| ![Windows](https://img.shields.io/badge/-Windows-0078D4?style=flat-square&logo=windows11&logoColor=white) | Windows 10 o 11 (64-bit) | Avvia l'installer `.exe` e completa la procedura guidata. |
+| ![macOS](https://img.shields.io/badge/-macOS-555555?style=flat-square&logo=apple&logoColor=white) | Apple Silicon (M1–M4) | Estrai il file `.zip` e sposta **Gestore Pedane.app** in **Applicazioni**. |
 
 <details>
 <summary><strong>Avvisi di sicurezza al primo avvio</strong></summary>
 
-#### Windows — Microsoft Defender SmartScreen
+<br />
 
-Se il sistema mostra un avviso, seleziona **Ulteriori informazioni** e poi **Esegui comunque**.
+#### Windows — Microsoft Defender SmartScreen
+Se compare un avviso di protezione, seleziona **Ulteriori informazioni** e poi **Esegui comunque**.
 
 #### macOS — Gatekeeper
+Se macOS blocca l'apertura, fai **clic destro** su `Gestore Pedane.app`, scegli **Apri** e conferma l'avvio.
 
-Se il sistema impedisce l'apertura dell'app, fai clic destro su `Gestore Pedane.app`, scegli **Apri** e conferma l'autorizzazione.
-
-> Gli avvisi possono comparire quando un'applicazione desktop non è stata ancora riconosciuta dal sistema operativo.
+> Gli avvisi possono comparire quando un'applicazione desktop non è ancora riconosciuta dal sistema operativo.
 
 </details>
 
+---
+
 ## Aggiornamenti
 
-Gestore Pedane controlla automaticamente la disponibilità di nuove versioni all'avvio.
+Gestore Pedane controlla automaticamente la disponibilità di nuove versioni all'avvio.  
+Puoi eseguire un controllo manuale in qualsiasi momento da **Impostazioni → Aggiornamenti**.
 
-Puoi verificare gli aggiornamenti manualmente da **Impostazioni → Aggiornamenti**.
+---
 
-## Privacy e dati
+## Privacy e gestione dei dati
 
-L'applicazione usa un database locale e non richiede l'uso di servizi cloud per la gestione ordinaria dei dati.
+L'applicazione utilizza un database locale e non richiede servizi cloud per l'operatività quotidiana:
 
-- Gli esportati e i backup vengono salvati nei percorsi configurati dall'utente.
-- Le credenziali email, quando configurate, vengono utilizzate esclusivamente per l'invio dei report.
-- Conserva una copia periodica del database su un supporto o in una posizione diversa dal computer principale.
+- **Esportazioni e backup** vengono salvati nei percorsi configurati dall'utente.
+- **Credenziali email**, se impostate, vengono usate esclusivamente per l'invio di report e solleciti.
+- **Copie di sicurezza** — Si consiglia di conservare periodicamente una copia del database su un disco esterno o in una posizione separata dal computer principale.
