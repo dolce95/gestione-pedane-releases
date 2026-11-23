@@ -12,8 +12,6 @@ Applicazione desktop locale per gestire ordini annuali, saldi clienti e fornitor
 
 <br />
 
-<sub>Windows 10/11 (64-bit) &bull; macOS Apple Silicon (M1–M4) &bull; Database locale SQLite</sub>
-
 </div>
 
 ---
