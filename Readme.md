@@ -8,18 +8,11 @@ Applicazione desktop locale per gestire ordini annuali, saldi clienti e fornitor
 
 <br />
 
-<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe">
-  <img src="https://img.shields.io/badge/SCARICA-Windows_10_e_11_(x64)-0F4C81?style=for-the-badge&labelColor=092C4C" alt="Scarica per Windows (x64)" />
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip">
-  <img src="https://img.shields.io/badge/SCARICA-macOS_Apple_Silicon-27272A?style=for-the-badge&labelColor=18181B" alt="Scarica per macOS (Apple Silicon)" />
-</a>
+**[Scarica per Windows (x64)](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe)** &nbsp;&bull;&nbsp; **[Scarica per macOS (Apple Silicon)](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip)**
 
 <br />
-<br />
 
-<sub>Installer ufficiale &bull; Nessun account cloud richiesto &bull; Database locale SQLite</sub>
+<sub>Windows 10/11 (64-bit) &bull; macOS Apple Silicon (M1–M4) &bull; Database locale SQLite</sub>
 
 </div>
 
@@ -54,7 +47,7 @@ Applicazione desktop locale per gestire ordini annuali, saldi clienti e fornitor
 
 ## Installazione
 
-| Piattaforma | Requisiti | Passaggi di installazione |
+| Sistema operativo | Requisiti | Passaggi di installazione |
 | :--- | :--- | :--- |
 | **Windows** | Windows 10 o 11 (64-bit) | 1. Scarica [`Gestore-Pedane-Setup-win-x64.exe`](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-Setup-win-x64.exe)<br>2. Avvia l'installer e completa la procedura guidata |
 | **macOS** | Apple Silicon (M1–M4) | 1. Scarica [`Gestore-Pedane-mac-arm64.zip`](https://github.com/dolce95/gestione-pedane-releases/releases/latest/download/Gestore-Pedane-mac-arm64.zip) ed estrai l'archivio<br>2. Sposta **Gestore Pedane.app** nella cartella **Applicazioni** |
